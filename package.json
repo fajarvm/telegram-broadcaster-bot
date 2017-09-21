@@ -1,0 +1,27 @@
+{
+  "name": "telegram-broadcaster-bot",
+  "version": "0.0.1",
+  "description": "A Telegram bot that allows publishers to broadcast private messages to their subscribers",
+  "private": true,
+  "main": "bbot.js",
+  "scripts": {
+    "test": "test",
+    "start": "node bbot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fajarvm/telegram-broadcaster-bot.git"
+  },
+  "keywords": [
+    "Telegram",
+    "Broadcaster",
+    "Bot"
+  ],
+  "author": "Fajar van Megen",
+  "license": "MIT OR GPL-3.0",
+  "homepage": "https://github.org/fajarvm/telegram-broadcaster-bot#readme",
+  "dependencies": {
+    "jsonfile": "^3.0.1",
+    "telebot": "^1.2.2"
+  }
+}
